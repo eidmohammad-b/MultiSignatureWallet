@@ -38,7 +38,7 @@ const typedData = {
 
 // metamask/trust/coinbase if you have it
 if (typeof window.web3 !== "undefined") {
-  const signerAddress = PUT_YOUR_ADDRES_HERE_DUMMY;
+  const signerAddress = 0x88C0d4ece620b4d30503c0338BC0a758395A0078;
 
   web3.currentProvider.sendAsync(
   {
